@@ -1,5 +1,8 @@
 # Database setup
 
+This may not be necessary. Maybe you're running things in Docker instead:
+"Docker Desktop for Apple silicon also supports multi-platform images, which allows you to build and run images for both x86 and ARM architectures without having to set up a complex cross-compilation development environment."
+
 ## Setting up Postgres
 Follow this:
 
