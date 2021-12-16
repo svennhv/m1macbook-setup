@@ -17,6 +17,11 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 Note:
 Brew `cask` commands have been deprecated. Now `--cask` is used instead.
 
+## Rosetta 
+
+You might need rosetta for some things, to run with an emulated x86 architecture:
+`softwareupdate --install-rosetta`
+
 ## Oh-my-zsh
 
 Install *oh-my-zsh*:
@@ -30,6 +35,10 @@ Amethyst must be given permissions to use the accessibility APIs under the Priva
 
 ## Docker
 Install Docker from here: https://docs.docker.com/desktop/mac/apple-silicon/ 
+
+This is a good sign:
+"Docker Desktop for Apple silicon also supports multi-platform images, which allows you to build and run images for both x86 and ARM architectures without having to set up a complex cross-compilation development environment. "
+(I had some issues with Neo4j last time I installed it using Docker. But maybe it works now)
 
 ## Settings in MacOS
 I would recommend fixing the following.
