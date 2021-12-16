@@ -1,8 +1,8 @@
 # Initial setup
 
-This installs the basics needed for a developer.
+This installs the basics needed for a developer. I don't have a lot of descriptions, so you'll have to Google/DuckDuckGo/.. things if you want to know what it is, or if you're stuck.
 
-## Basic dependencies and some nice to have's
+## Homebrew
 Install Homebrew
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
@@ -14,10 +14,19 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/svennhv/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
+Note:
+Brew `cask` commands have been deprecated. Now `--cask` is used instead.
+
+## Oh-my-zsh
+
 Install *oh-my-zsh*:
 `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
-Install x-code command line tools:
-`xcode-select --install`
-Then install. Run `xcode-select -p` and the output should be `/Library/Developer/CommandLineTools`
+## Window Manager Amethyst
+
+`brew install --cask amethyst`
+
+Amethyst must be given permissions to use the accessibility APIs under the Privacy tab of the Security & Privacy preferences. Check the link if you're lost: https://github.com/ianyh/Amethyst
+
+
 
