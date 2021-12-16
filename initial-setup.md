@@ -40,6 +40,62 @@ This is a good sign:
 "Docker Desktop for Apple silicon also supports multi-platform images, which allows you to build and run images for both x86 and ARM architectures without having to set up a complex cross-compilation development environment. "
 (I had some issues with Neo4j last time I installed it using Docker. But maybe it works now)
 
+## Frontend stuff
+
+### Installing NVM
+
+Install NVM with Brew:
+`brew install nvm`
+
+Make sure to create a directory:
+`mkdir ~/.nvm`
+
+Add this in .zshrc:
+```
+export NVM_DIR="$HOME/.nvm"
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+```
+
+Restart the terminal.
+
+### Installing node
+
+## Making ssh keys for Git
+
+Generate key:
+`ssh-keygen -t ed25519 -C "your_email@example.com"`
+
+Start the ssh agent:
+`eval "$(ssh-agent -s)"`
+
+Create config file: 
+touch ~/.ssh/config`
+
+Add to the file:
+```
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+```
+(check the file name, should be the same as the one you just created)
+
+Add ssh key:
+`ssh-add ~/.ssh/id_ed25519`
+
+If using passphrase: Google the `-K` flag.
+
+Copy the public key to your clipboard: 
+`pbcopy < ~/.ssh/id_ed25519.pub`
+(check filename) 
+
+Add the public key on Github: https://github.com/settings/ssh/new 
+
+More detailed: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent 
+
+I'm using Github, but you can find guides for adding the SSH keys in whatever git system you're using.
+
 ## Settings in MacOS
 I would recommend fixing the following.
 **More space:**
