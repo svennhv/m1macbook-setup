@@ -28,5 +28,11 @@ Install *oh-my-zsh*:
 
 Amethyst must be given permissions to use the accessibility APIs under the Privacy tab of the Security & Privacy preferences. Check the link if you're lost: https://github.com/ianyh/Amethyst
 
+## Settings in MacOS
+I would recommend fixing the following.
+**More space:**
+cmd+space, then write `displays`. Select "scaled". Select "more space". This is if you're able to read stuff.
 
+**Hide the dock:**
+cmd+space, then write `dock & menu bar`. Position: *right*. Select "Automatically hide and show ..". This seems to interfere the least, and give more room for work.
 
