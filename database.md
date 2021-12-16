@@ -21,6 +21,7 @@ See this for more DB commands: https://neo4j.com/docs/cypher-manual/current/data
 According to some people the Neo4j 4.4 version supports the new M1 processors.
 https://githubmemory.com/repo/neo4j/neo4j/issues/12692?page=2
 
+If you have problems, this one might help: https://rajfal.github.io/2018/Create-a-clean-Neo4j-database-inside-Docker-container/
 
 ## Setting up Postgres
 Follow this:
