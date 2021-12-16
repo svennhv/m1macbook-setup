@@ -28,6 +28,9 @@ Install *oh-my-zsh*:
 
 Amethyst must be given permissions to use the accessibility APIs under the Privacy tab of the Security & Privacy preferences. Check the link if you're lost: https://github.com/ianyh/Amethyst
 
+## Docker
+Install Docker from here: https://docs.docker.com/desktop/mac/apple-silicon/ 
+
 ## Settings in MacOS
 I would recommend fixing the following.
 **More space:**
