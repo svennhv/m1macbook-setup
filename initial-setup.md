@@ -27,6 +27,10 @@ You might need rosetta for some things, to run with an emulated x86 architecture
 Install *oh-my-zsh*:
 `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
+## Tmux
+Install tmux (terminal window manager):
+`brew install tmux`
+
 ## Window Manager Amethyst
 
 `brew install --cask amethyst`
