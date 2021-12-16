@@ -19,8 +19,7 @@ Create new database:
 See this for more DB commands: https://neo4j.com/docs/cypher-manual/current/databases/ 
 
 According to some people the Neo4j 4.4 version supports the new M1 processors.
-`docker pull neo4j/neo4j-arm64-experimental`
-
+https://githubmemory.com/repo/neo4j/neo4j/issues/12692?page=2
 
 
 ## Setting up Postgres
