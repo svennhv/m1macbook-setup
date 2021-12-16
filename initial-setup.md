@@ -65,6 +65,8 @@ Restart the terminal.
 
 ### Installing node
 
+`nvm install 14.17` (because of my projects, feel free to use a newer one)
+
 ## Making ssh keys for Git
 
 Generate key:
