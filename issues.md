@@ -15,3 +15,7 @@ Update tailwind to 2.1 to natively support JIT (#326) (dfa989a)
 
 The tailwind-css forms seem to be only supporting tailwind 2.0. So the issues might be due to us using 2.1.
 https://www.npmjs.com/package/@tailwindcss/forms 
+
+Next strategy:
+- Go through existing project and test different versions start from middle.
+- 
