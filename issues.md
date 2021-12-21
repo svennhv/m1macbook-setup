@@ -8,6 +8,14 @@ The node-sass should be replaced with sass: https://stackoverflow.com/questions/
 
 # Setting up a new Nuxt project
 
+## Seems like a solution
+
+First update Nuxt-tailwind:
+`npm update @nuxtjs/tailwindcss`
+
+Then:
+`npm install node-sass@npm:sass` 
+
 ## nuxt-tailwindcss: 
 v4.1.0
 5/5/2021
